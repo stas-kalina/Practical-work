@@ -18,6 +18,19 @@
 4. Додано ключ у GitHub → Settings → SSH and GPG keys
 5. Перевірено підключення: `ssh -T git@github.com`
 
+Підтвердження налаштування SSH
+
+Ось скріншоти виконаної роботи:
+
+1. Згенерований публічний ключ  
+   ![Публічний ключ](ssh-keygen_output.png)
+
+2. Доданий ключ у налаштуваннях GitHub  
+   ![SSH ключі в GitHub](github_ssh_keys_list.png)
+
+3. Успішна автентифікація  
+   ![ssh -T git@github.com](ssh_test_success.png)
+
 Скріншоти
 
 <image-card alt="Вивід публічного ключа" src="ssh-keygen_output.png" ></image-card>
